@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script>
+    function inputval()
+    {
+      var a = document.getElementById("type").value;
+      document.getElementById("val").innerHTML = "Welcome"+ " " + a;
+    }
+  </script>
+</head>
+<body>
+  <input type="text" placeholder="Type Here" id="type">
+  <button onclick= "inputval()"> Submit </button>
+  <h1 id="val"></h1>
+</body>
+</html>

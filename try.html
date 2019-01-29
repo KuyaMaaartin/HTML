@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  
+  <title>Page Title</title>
+  
+  <script>
+    
+
+    function add()
+    {
+      var num1 = document.getElementById("num_1").value;
+      var num2 = document.getElementById("num_2").value;
+      
+      document.getElementById("value").innerHTML = num1 + num2;
+
+    }
+  </script>
+</head>
+<body>
+  <input type="text" placeholder="Type number 1" id="num_1">
+  <input type="text" placeholder="Type number 2" id="num_2">
+  <button onclick="add()">Submit</button>
+  <h1 id = "val"></h1>
+</body>
+</html>
